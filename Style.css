@@ -16,12 +16,14 @@
 }
 .menu{
     display: flex;
-    flex-direction: row;
+    flex-wrap: nowrap;
     align-items: flex-start;
     justify-content: space-between;    
 }
 .logo_a{
     display: flex;
+    flex: 30%;
+    flex-wrap: nowrap;
 }
 .logo_img{
     background: #FFFFFF;
@@ -43,32 +45,65 @@
     font-size: 20px;
     line-height: 25px;
 }
+.Startup{
+    opacity: 0.5;
+}
 .right_menu{
     display: flex;
+    flex-direction: row;
+    flex: 20%;
+    flex-wrap: nowrap;
     align-items: flex-start;
 }
 
-nav ul li {
-    display: inline-block;
+.ul_menu{
+    display: flex;
+    flex:50%;
+    justify-content: space-between;
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-size: 18px;
     text-align: right;
     line-height: 25px;
     margin-top: 7px;
-    margin-bottom: 30px;
-    margin-right: 40px;
+}
+.item {
+    display: inline-block;
 }
 
 .img_select{   
-    margin-left: 11x;
-    margin-right: 16px;
+    margin-left: 11px;
+    margin-right: 56px;
 }    
+
+.item--library:hover .option_library{
+    display: flex;
+}
+.option_library{
+    background: #FFFFFF;
+    position: absolute;
+    display: none;
+    flex-flow: row wrap;
+    left: 35%;
+    right: 21%;
+    top: 13%;
+    bottom: 46%;
+    z-index: 2;
+    justify-content: space-between; 
+    text-align: left;
+    flex-wrap: wrap;     
+}
+.option1{
+    text-align: left;
+    flex-wrap: wrap;
+}
+
 
 .bold{
     font-weight: bold;
 }
 .btn{
+    display: flex;
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -90,49 +125,20 @@ a{
     color: black;
     text-decoration: none;
 }
-.banner{
-    display: flex;
-    align-items: flex-start;
-    position: relative;
-    margin-top: 76px;
-}
-.left_top{
-    font-family: 'Work Sans', sans-serif;
-    font-style: normal;
-    font-size: 80px;
-    line-height: 78px;
-    width: 754px;
-    position: absolute;
-    z-index: 1;
-}
-.left_banner{
-    margin-top: 199px;
-}
 
-.top_between{
-    font-family: 'Work Sans', sans-serif;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 34px;
-    margin-bottom: 58px;
-}
 .button_2{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 58px;
 }
 .btn--LearnMore{
     margin-left: 10px;
     background: #FFFFFF;
     color: #3040C4;
 }
-.banner_img{
-    margin-top: 8px;
-    margin-right: -105px;
-    margin-bottom: 77px;
-}
 
-.option_library{
+
+
+.option_library1{
     width: 1000px;
     height: 472px;
     display: flex;
@@ -145,18 +151,19 @@ a{
     font-size: 22px;
     line-height: 26px;
 }
-.option_library a{
+.option_library1 a{
     font-weight: bold;
 }
-.option13{
+.option131{
     margin-right: 28px;
     margin-left: 30px;
     margin-top: 30px;
 }
-.option24{
+.option241{
     margin-right: 30px;
     margin-top: 30px;
 }
+
 
 
 
@@ -175,6 +182,46 @@ a{
     margin-right: 29px;
 }
 
+.banner{
+    display: flex;
+    flex-direction: column;
+    margin-top: 76px;
+}
+.top_left{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-size: 80px;
+    line-height: 78px;
+    margin-left: -4px;
+    width: 66%;
+    z-index: 1;
+}
+.big_banner{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.left_bottom{
+    margin-top: 34px;   
+}
+.left_between{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 58px;
+    margin-right: -7px;
+    padding-right: 10px;
+}
+.banner_img1{
+    margin-top: -148px;
+    margin-right: -105px;
+    margin-bottom: 77px;
+}
 
-
-
+.triangle{
+    height: 0;
+    width: 0;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-bottom: 26 solid #FFFFFF ;
+}
