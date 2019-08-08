@@ -3,34 +3,22 @@
     margin: 0;
     padding: 0;
 }
-.bold{
+.bgr{
+    background: #F2F2F2;
+}
+.abc{
+    width: 77.477%;
+    margin: auto;
+}
+
+.text--bold{
     font-weight: bold;
 }
-.btn{
-    display: flex;
-    font-family: 'Work Sans', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 13px;
-    background: #3040C4;
-    background-blend-mode:overlay;
-    color: #FFFFFF;
-    padding-top: 17px;
-    padding-left: 28px;
-    padding-bottom: 18px;
-    padding-right: 28px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05); 
-    border: 0px;
-    border-radius: 2px;
-}
+
 
 a{
     color: black;
     text-decoration: none;
-}
-.bgr{
-    background: #F2F2F2;
 }
 
 .container{
@@ -40,21 +28,21 @@ a{
     padding-left: 130px;
     padding-right: 130px;
 }
-.menu{
+.header{
     display: flex;
     flex-wrap: nowrap;
     align-items: stretch;
     justify-content: space-between;    
 }
-.logo_a{
+.logo{
     display: flex;
-    flex: 30%;
+    flex: 40.87%;
     flex-wrap: nowrap;
 }
 .logo_img{
     background: #FFFFFF;
     background-blend-mode: overlay,normal   ;
-    box-shadow: 0px 4p 6px rgba(0, 0, 0, 0.05) ;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05) ;
     border-radius: 14px;
     margin-top: 2px;
     padding-left: 14px;
@@ -62,7 +50,7 @@ a{
     padding-right: 13px;
     padding-bottom: 9px;
 }
-.Namelogo{
+.logo_name{
     margin-top: 6px;
     margin-left: 15px;
     margin-bottom: 5px;
@@ -71,18 +59,18 @@ a{
     font-size: 20px;
     line-height: 25px;
 }
-.Startup{
+.logo_startup{
     opacity: 0.5;
 }
 .right_menu{
     display: flex;
     flex-direction: row;
-    flex: 20%;
+    flex: 30%;
     flex-wrap: nowrap;
     align-items: stretch;
 }
 
-.ul_menu{
+.menu{
     display: flex;
     flex:50%;
     justify-content: space-between;
@@ -96,27 +84,25 @@ a{
 }
 .item {
     display: inline-block;
-}
-
-.img_select{   
-    margin-left: 11px;
-}    
+} 
 
 .item--library{
     position: relative;
 }
+.img_select{   
+    margin-top: 2.5px;
+    margin-left: 11px;
+}   
 .triangle{
     position: absolute;
     top:44px;
+    right: 32px;
     height: 0;
     width: 0;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
 }
-.select_library{
-    position: absolute;
-    left: -15px;
-}
+
 .item--library:hover .option_library{
     display: flex;
 }
@@ -129,7 +115,6 @@ a{
     position: absolute;
     display: none;
     flex-direction: row;
-    flex-wrap: wrap;
     z-index: 2;
     justify-content: space-between; 
     align-content: space-between;
@@ -137,54 +122,57 @@ a{
     font-size: 22px;
     font-style: normal;
     line-height: 26px;
-    margin-top: 38px;
+    margin-top: 38.6px;
     right: -49px;
-    left: -477px;
     padding-top: 31px;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 31px;
     border-radius: 8px;
 }
-.option1:hover .a_option1{
+.option:hover .a_option{
     color : #009B4D;
 }
-.option2:hover .a_option2{
-    color : #009B4D;
+
+.option {
+    width: 262px;
+    height: 90px;
 }
-.option3:hover .a_option3{
-    color : #009B4D;
+
+.option_right{
+    margin-left: 28px;
 }
-.option4:hover .a_option4{
-    color : #009B4D;
+
+.option--option_bottom_right{
+    margin-top: 30px;
 }
+.option--option_bottom_left{
+    margin-top: 30px;
+}
+
 .p_option{
     font-size: 18px;
     margin-top:12px;
 }
-.option1 {
-    width: 262px;
-    height: 90px;
-    margin-right: 28px;
-    margin-bottom: 30px;
+.btn{
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 13px;
+    background:  #3040C4;;
+    background-blend-mode:overlay;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05); 
+    color: #FFFFFF;
+    padding-top: 17.8px;
+    padding-left: 29px;
+    padding-bottom: 18px;
+    padding-right: 28.77px;
+    border: 0px;
+    border-radius: 2px;
 }
-.option2 { 
-    width: 262px;
-    height: 90px;
-    margin-bottom: 30px;
-}
-.option3 { 
-    width: 262px;
-    height: 90px;
-    margin-right: 28px;
-    margin-bottom: 31px;
-}
-.option4 { 
-    height: 90px;
-    width: 262px;
-    margin-bottom: 31px;
-}
-
-.btn--btn1{
+.btn--menu{
     margin-bottom: 14px;
 }
 .banner{
@@ -220,7 +208,7 @@ a{
     padding-right: 10px;
 }
 .banner_img1{
-    margin-top: -156px;
+    margin-top: -156.5px;
     margin-right: -105px;
     margin-bottom: 77px;
 }
