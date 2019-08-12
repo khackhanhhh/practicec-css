@@ -6,10 +6,11 @@
 .bgr{
     background: #F2F2F2;
 }
-.abc{
+.body{
     max-width: 1400px;
     /* width: 57.128%; */
     margin: auto;
+    color:#2B292D;
 }
 
 .text-bold{
@@ -18,7 +19,7 @@
 
 
 a{
-    color: black;
+    color: #2B292D;;
     text-decoration: none;
 }
 
@@ -277,6 +278,8 @@ a{
 .information{
     display: flex;
     flex-direction: column;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
 
 }
 .information_a{
@@ -342,22 +345,25 @@ a{
     margin-top: 5px;
 }
 .Quote{
-    background: #FCF0E3;
+    background: rgba(252,240,227,0.4);
     display: flex;
+    justify-content: space-between;
+    font-family: 'Work Sans',sans-serif;
 }
 .img_quote{
     margin-left: 193px;
     margin-top: 142px;
+    margin-bottom: 101px;
 }
 .img_note{
-    margin-top: 15px;
     font-size: 14px;
     line-height: 22px;
     text-align: center;
     color: rgba(43, 41, 45, 0.6);
+    margin-top: 15px;
 }
 .information--Team_inbox{
-    width: 462px;
+    margin-right: 99px;
     margin-top:115px;
     margin-left: 164px;  
 }
@@ -374,8 +380,8 @@ a{
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 28px;
-    margin-top: 30px;
-    border-bottom:#0185D0 1px solid;
+    margin-top: 44px;
+    border-bottom:#0185D0 4dpx solid;
 }
 .text_comment{
     font-size: 20px;
@@ -398,4 +404,115 @@ a{
     font-size: 16px;
     line-height: 22px;
     color: rgba(43, 41, 45, 0.6);
+}
+.featires{
+    font-family: 'Work Sans',sans-serif;
+    font-style: normal;
+    
+}
+.top_featires{
+    margin-top:110px;
+    display: flex;
+    justify-content: space-between;
+    margin-left:126px;
+    margin-right: 193px;
+}
+.left_featires{
+    margin-right: 193px;
+    margin-top:13px;
+}
+.information--Communicate_Better{
+    margin-bottom: 39px;
+}
+.information_a--blue{
+    color: #0189D1;
+}
+.border_featires{
+    margin-top: 87px;
+    width: 150px;
+    border-top: rgba(0, 0, 0, 0.1) 2px solid;
+}
+.img_quote--featires{
+    margin-top:0px;
+    margin-left: 0px;
+    margin-bottom: 68px;
+}
+.option_featires{
+    width: 360px;
+    font-size: 18px;
+    line-height: 26px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.text_featires{
+    margin-bottom: 13.68px;
+}
+.a_option_featires{
+    color:  #3040C4;
+    font-weight: bold;
+}
+.bottom_featires{
+    display: flex;
+    margin-left: 115px;
+    margin-right: 115px; 
+    flex-wrap: wrap;
+}
+.Categories{
+    background: rgba(0,161,198,0.07);
+    margin-top: 110px;
+    padding-top: 108px;
+}
+.top_categories{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.information--Categories{
+    mix-blend-mode: normal;
+    align-items: center;
+    text-align: center;
+    margin-left: 422px;
+    margin-right: 422px;
+}
+.button_2--Categories{
+    text-emphasis: center;
+    margin-top: 34px;
+    margin-bottom: 111px;
+}
+.menu_categories{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 130px;   
+    margin-bottom: 110px;
+}
+.a_Categories{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    font-family: 'Work Sans',inherit;
+    font-style: normal;
+    box-shadow: 0px 11px 55px rgba(0, 0, 0, 0.07);
+    background-blend-mode: overlay, normal;
+    border-radius: 8px;
+    padding: 22px 62px 33px 62px;
+}
+.a_Categories:hover{
+    background:#3141C5;
+    color: #FFFFFF;
+}
+.text_categories{
+    margin-top:22px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+}
+.a_Categories--Entertaiment{
+    padding: 22px 60px 33px 60px;
+}
+.a_Categories--Athletes{
+    padding: 22px 51px 33px 51px; 
+}
+.a_Categories--Creators{
+    padding: 22px 71px 33px 71px; 
 }
