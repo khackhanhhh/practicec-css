@@ -1,0 +1,12 @@
+.menu_logos{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:130px;
+    margin-right:130px;
+}
+.menu_logos--reviews{
+    margin-top: 43px;
+    margin-bottom: 76px;
+}

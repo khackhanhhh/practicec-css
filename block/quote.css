@@ -1,0 +1,24 @@
+.Quote{
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Work Sans',sans-serif;
+}
+.quote__img{
+    margin-left: 193px;
+    margin-top: 142px;
+    margin-bottom: 101px;
+}
+.quote__note{
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(43, 41, 45, 0.6);
+    margin-top: 15px;
+}
+.quote__img--featires{
+    margin-top:0px;
+    margin-left: 0px;
+    margin-bottom: 68px;
+}

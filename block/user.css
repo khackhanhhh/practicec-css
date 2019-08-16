@@ -1,0 +1,18 @@
+.user{
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+}
+.infor_user{
+    margin-left: 11px;
+}
+.user_name{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+}
+.user_note{
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(43, 41, 45, 0.6);
+}

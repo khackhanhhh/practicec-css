@@ -1,0 +1,31 @@
+.item_Categories{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    font-family: 'Work Sans',inherit;
+    font-style: normal;
+    box-shadow: 0px 11px 55px rgba(0, 0, 0, 0.07);
+    background-blend-mode: overlay, normal;
+    border-radius: 8px;
+    padding: 22px 62px 33px 62px;
+}
+.item_Categories:hover{
+    background:#3141C5;
+    color: #FFFFFF;
+}
+.categories__text{
+    margin-top:22px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+}
+.item_Categories--Entertaiment{
+    padding: 22px 60px 33px 60px;
+}
+.item_Categories--Athletes{
+    padding: 22px 51px 33px 51px; 
+}
+.item_Categories--Creators{
+    padding: 22px 71px 33px 71px; 
+}

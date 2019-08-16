@@ -3,6 +3,16 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="/Style.css" medial="all" />
+    <link rel="stylesheet" type="text/css" href="/block/btn.css" medial="all" />
+    <link rel="stylesheet" type="text/css" href="/block/logo.css" medial="all" />
+    <link rel="stylesheet" type="text/css" href="/block/menu_logos.css" medial="all" />
+    <link rel="stylesheet" type="text/css" href="/block/information.css" medial="all" />
+    <link rel="stylesheet" type="text/css" href="/block/quote.css" medial="all" />
+    <link rel="stylesheet" type="text/css" href="/block/user.css" medial="all" />
+    <link rel="stylesheet" type="text/css" href="/block/option_featires.css" medial="all" />
+    <link rel="stylesheet" type="text/css" href="/block/menu_catelogy.css" medial="all" />
+    <link rel="stylesheet" type="text/css" href="/block/menu_jobs.css" medial="all" />
+    <link rel="stylesheet" type="text/css" href="/block/list_footer.css" medial="all" />
     <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,95 +22,100 @@
 
 <body>
     <div class="body">
-        <div class="container">
-            <div class="header">
-                <a class="logo" href="#">
-                    <img src="/images/Icon.png" alt="icon" class="logo_img">
-                    <div class="logo_name">
-                        <span class="text-bold">Foundation</span>
-                        <p class="logo_startup">Startup landing template</p>
-                    </div>
-                </a>
-                <div class="right_menu">
-                    <ul class="menu">
-                        <li class="item text-bold"> <a href="#"> Home</li></a>
-                        <li class="item"> <a href="#">Sotries</li></a>
-                        <li class="item item--library"> 
-                            <a href="#" class="library">Library <img src="images/Arrow.png" alt="select" class="img_select"></a>
-                            <div class="triangle">
-                            </div>                        
-                            <ul class="option_library">
-                               <li>
-                                   <ul class="option_left">
-                                        <li class="option">
-                                            <a href="#" class="a_option text-bold">Acquire Users</a>
-                                            <p class="p_option">Work with the tools and services you see.</p>
-                                        </li>
-                                        <li class="option option--option_bottom_left">
-                                            <a href="#" class="a_option text-bold">Book Appointments</a>
-                                            <p class="p_option">We offer measures like 2FA to ensure the safety.</p>
-                                        </li>
-                                   </ul>
-                               </li>
+        <div class="container_bgr">
+            <div class="container">
+                <div class="header">
+                    <a class="logo" href="#">
+                        <img src="/images/Icon.png" alt="icon" class="logo__img">
+                        <div class="logo__name">
+                            <span class="text-bold">Foundation</span>
+                            <p class="logo__startup">Startup landing template</p>
+                        </div>
+                    </a>
+                    <div class="right_menu">
+                        <ul class="menu">
+                            <li class="item"> <a href="#"> Home</li></a>
+                            <li class="item"> <a href="#">Sotries</li></a>
+                            <li class="item item--library"> 
+                                <a href="#" class="library">Library <img src="images/Arrow.png" alt="select" class="img_select"></a>
+                                <div class="triangle">
+                                </div>                        
+                                <ul class="option_library">
                                 <li>
-                                    <ul class="option_right">
-                                        <li class="option option--option_top_right">
-                                            <a href="#" class="a_option text-bold">Engage Customers</a>
-                                            <p class="p_option">Get started with our simple snippet of JavaScript.</p>
-                                        </li>
-                                        <li class="option option--option_bottom_right">
-                                            <a href="#" class="a_option text-bold">Generate Leads</a>
-                                            <p class="p_option">Become a better designer by learning this coureses.</p>
-                                        </li>
+                                    <ul class="option_left">
+                                            <li class="option">
+                                                <a href="#" class="a_option text-bold">Acquire Users</a>
+                                                <p class="p_option">Work with the tools and services you see.</p>
+                                            </li>
+                                            <li class="option option--option_bottom_left">
+                                                <a href="#" class="a_option text-bold">Book Appointments</a>
+                                                <p class="p_option">We offer measures like 2FA to ensure the safety.</p>
+                                            </li>
                                     </ul>
                                 </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <button class="btn btn--menu">Get Started</button>
-                </div>
-            </div>
-            <div class="banner">
-                <p class="banner_top">Build stunning websites & app.</p>
-                <div class="banner_big">
-                    <div class="banner_left">
-                        <p class="banner_between">Create live segments and target the right people for messages based on their behaviors</p>
-                        <div class='button_2'>
-                            <button class="btn">Get Started</button>
-                            <button class="btn btn--LearnMore">Learn More</button>
-                        </div>
+                                    <li>
+                                        <ul class="option_right">
+                                            <li class="option option--option_top_right">
+                                                <a href="#" class="a_option text-bold">Engage Customers</a>
+                                                <p class="p_option">Get started with our simple snippet of JavaScript.</p>
+                                            </li>
+                                            <li class="option option--option_bottom_right">
+                                                <a href="#" class="a_option text-bold">Generate Leads</a>
+                                                <p class="p_option">Become a better designer by learning this coureses.</p>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <button class="btn btn--menu">Get Started</button>
                     </div>
-                    <img class="banner_img" src="images/banner_container.png" alt="ảnh bìa">
+                </div>
+                <div class="banner">
+                    <p class="banner_top">Build stunning websites & app.</p>
+                    <div class="banner_big">
+                        <div class="banner_left">
+                            <p class="banner_between">Create live segments and target the right people for messages based on their behaviors</p>
+                            <div class='button_2'>
+                                <button class="btn">Get Started</button>
+                                <button class="btn btn--LearnMore">Learn More</button>
+                            </div>
+                        </div>
+                        <img class="banner_img" src="images/banner_container.png" alt="ảnh bìa">
+                    </div>
                 </div>
             </div>
         </div>
-        
-        <div class="container2">
-            <div class="see_more_left">
-                <a class="text-bold" href="#">What is it about?</a> 
-               <p class="seemore_p">Building a websites for a startup that looks amazing is not a rocket science anymore.</p>
-            </div>
-            <div class="see_more_right">
-                <a class="text-bold" href="#">What is it for?</a> 
-                <p class="seemore_p">Startup, small companies and teams, entrepreneurs and web developers.</p>
+        <div class="container2_bgr">
+            <div class="container2">
+                <div class="see_more_left">
+                    <a class="text-bold" href="#">What is it about?</a> 
+                    <p class="seemore_p">Building a websites for a startup that looks amazing is not a rocket science anymore.</p>
+                </div>
+                <div class="see_more_right">
+                    <a class="text-bold" href="#">What is it for?</a> 
+                    <p class="seemore_p">Startup, small companies and teams, entrepreneurs and web developers.</p>
+                </div>
             </div>
         </div>
         <div class="logos">
-            <img src="images/Bitmap (1).png" alt="bitmap1">
-            <img src="images/Bitmap (2).png" alt="bitmap2">
-            <img src="images/Bitmap (3).png" alt="bitmap3">
-            <img src="images/Bitmap (4).png" alt="bitmap4">
-            <img src="images/Bitmap (5).png" alt="bitmap5">
-            <img src="images/Bitmap (6).png" alt="bitmap6">
+            <div class="menu_logos">
+                <a href="#"><img src="images/Bitmap (1).png" alt="bitmap1"></a>
+                <a href="#"><img src="images/Bitmap (2).png" alt="bitmap2"></a>
+                <a href="#"><img src="images/Bitmap (3).png" alt="bitmap3"></a>
+                <a href="#"><img src="images/Bitmap (4).png" alt="bitmap4"></a>
+                <a href="#"><img src="images/Bitmap (5).png" alt="bitmap5"></a>
+                <a href="#"><img src="images/Bitmap (6).png" alt="bitmap6"></a>
+            </div>
         </div>
 
         <div class="Selector">
             <img src="images/ouch.png" class="img_ouch" alt="ouch">
             <div class="features">
                 <div class="information">
-                    <a href="#" class="information_a">Features</a>
-                    <p class="information_title">Easily find leads and customers</p>
-                    <p class="information_text">Send one-off and automated email, push, and in-app messages to people. Create better stories.</p>
+                    <a href="#" class="information__title">Features</a>
+                    <p class="information__header">Easily find leads and customers</p>
+                    <p class="information__text">Send one-off and automated email, push, and in-app messages to people. Create better stories.</p>
                 </div>
                 <div class="new_customner">
                     <a href="#" class="a_new_customer">
@@ -122,85 +137,207 @@
             </div>
             <img src="images/Invision Screen.png" class="selector_banner" alt="selector_banner">
         </div>
-        <div class="Quote">
-            <div class="img_quote">
-                <img src="images/clock.png" alt="clock">
-                <p class="img_note">Connect with customers and grow faster</p>
-            </div>  
-            <div class="information information--Team_inbox">
-                <a href="#" class="information_a information_a--red">Team Inbox</a>
-                <p class="information_title">Manage conversations</p>
-                <p class="information_text">One place to manage and respond to all conversations with leads and users. Receive messages from leads.</p>
-                <div class="comment">
-                    <p class="text_comment">"Great widgets. Great selection. Great design and <b class="text-bold">easy to implement.</b> Definitely a huge time saver for a web developer!" </p>
-                    <div class="user_comment">
-                        <img src="images/Profile Image.png" alt="Profile">
-                        <div class="infor_user">
-                            <a href="#" class="name_commnent">Viella Malkovich</a>
-                            <p class="note_comment">Creative Director at Johnson</p>
+        <div class="Quote_bgr">
+            <div class="Quote">
+                <div class="quote__img">
+                    <img src="images/clock.png" alt="clock">
+                    <p class="quote__note">Connect with customers and grow faster</p>
+                </div>  
+                <div class="Quote_information">
+                    <div class="information information--Team_inbox">
+                        <a href="#" class="information__title information__title--red">Team Inbox</a>
+                        <p class="information__header">Manage conversations</p>
+                        <p class="information__text">One place to manage and respond to all conversations with leads and users. Receive messages from leads.</p>
+                    </div>
+                    <div class="comment">
+                        <p class="comment_text">"Great widgets. Great selection. Great design and <b class="text-bold">easy to implement.</b> Definitely a huge time saver for a web developer!" </p>
+                        <div class="user">
+                            <img src="images/Profile Image.png" alt="Profile">
+                            <div class="infor_user">
+                                <a href="#" class="user_name">Viella Malkovich</a>
+                                <p class="user_note">Creative Director at Johnson</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="featires">
-            <div class="top_featires">
-                <div class="left_featires">
+            <div class="featires_top">
+                <div class="featires_left">
                     <div class="information information--Communicate_Better">
-                        <a href="#" class="information_a information_a--blue">Communicate Better</a>
-                        <p class="information_title">Built for busy small teams</p>
-                        <p class="information_text">Three products that can be used independently or combined together for your company's needs.</p>
+                        <a href="#" class="information__title information__title--blue">Communicate Better</a>
+                        <p class="information__header">Built for busy small teams</p>
+                        <p class="information__text">Three products that can be used independently or combined together for your company's needs.</p>
                     </div>
                     <button class="btn btn--btn_featires">Get Started</button>
                     <div class="border_featires"></div>
                 </div>
-                <div class="img_quote img_quote--featires">
+                <div class="quote__img quote__img--featires">
                     <img src="images/img_featires.png" alt="img featires">
-                    <p class="img_note">A better way to acquire new users</p>
+                    <p class="quote__note">A better way to acquire new users</p>
                 </div>
             </div>
             <div class="bottom_featires">
                 <div class="option_featires">
-                    <p class="text_featires"> <b class="text-bold">Subscriptions. </b>Foundation works with the tools and services you already use every day.</p>
-                    <a href="#" class="a_option_featires">Learn more about subscriptions</a>
+                    <p class="option_featires__text"> <b class="text-bold">Subscriptions. </b>Foundation works with the tools and services you already use every day.</p>
+                    <a href="#" class="option_featires__a">Learn more about subscriptions</a>
                 </div>
-                <div class="option_featires option_featires--betwween">
-                    <p class="text_featires"> <b class="text-bold">Subscriptions. </b>Foundation works with the tools and services you already use every day.</p>
-                    <a href="#" class="a_option_featires">Learn more about subscriptions</a>
+                <div class="option_featires">
+                    <p class="option_featires__text"> <b class="text-bold">Subscriptions. </b>Foundation works with the tools and services you already use every day.</p>
+                    <a href="#" class="option_featires__a">Learn more about subscriptions</a>
                 </div>
-                <div class="option_featires option_featires--right">
-                    <p class="text_featires"> <b class="text-bold">Subscriptions. </b>Foundation works with the tools and services you already use every day.</p>
-                    <a href="#" class="a_option_featires">Learn more about subscriptions</a>
+                <div class="option_featires">
+                    <p class="option_featires__text"> <b class="text-bold">Subscriptions. </b>Foundation works with the tools and services you already use every day.</p>
+                    <a href="#" class="option_featires__a">Learn more about subscriptions</a>
                 </div>
             </div>
         </div>
-        <div class="Categories">
-            <div class="information information--Categories">
-                <a href="#" class="information_a information_a--black">Engage Visitors</a>
-                <p class="information_title">Understand your audience</p>
-                <p class="information_text">Early stage company? Eligible applicants get all of our products for just $49 a month.</p>
-                <div class='button_2 button_2--Categories'>
-                    <button class="btn">Get Started</button>
-                    <button class="btn btn--LearnMore">Learn More</button>
+        <div class="Categories_bgr">
+            <div class="Categories">
+                <div class="information information--Categories">
+                    <a href="#" class="information__title information__title--black">Engage Visitors</a>
+                    <p class="information__header">Understand your audience</p>
+                    <p class="information__text">Early stage company? Eligible applicants get all of our products for just $49 a month.</p>
+                    <div class='button_2 button_2--Categories'>
+                        <button class="btn">Get Started</button>
+                        <button class="btn btn--LearnMore">Learn More</button>
+                    </div>
+                </div>
+                <div class="menu_categories">
+                    <a href="#" class="item_Categories">
+                        <img src="images/Developers.png" alt="Developers">
+                        <p class="categories__text">Developers</p>
+                    </a>
+                    <a href="#" class="item_Categories item_Categories--Entertaiment">
+                        <img src="images/Entertainment.png" alt="Entertainment">
+                        <p class="categories__text">Entertainment</p>
+                    </a>
+                    <a href="#" class="item_Categories item_Categories--Athletes">
+                        <img src="images/Athletes.png" alt="Athletes">
+                        <p class="categories__text">Athletes</p>
+                    </a>
+                    <a href="#" class="item_Categories item_Categories--Creators">
+                        <img src="images/Creators.png" alt="Creators">
+                        <p class="categories__text">Creators</p>
+                    </a>
                 </div>
             </div>
-            <div class="menu_categories">
-                <a href="#" class="a_Categories">
-                    <img src="images/Developers.png" alt="Developers">
-                    <p class="text_categories">Developers</p>
-                </a>
-                <a href="#" class="a_Categories a_Categories--Entertaiment">
-                    <img src="images/Entertainment.png" alt="Entertainment">
-                    <p class="text_categories">Entertainment</p>
-                </a>
-                <a href="#" class="a_Categories a_Categories--Athletes">
-                    <img src="images/Athletes.png" alt="Athletes">
-                    <p class="text_categories">Athletes</p>
-                </a>
-                <a href="#" class="a_Categories a_Categories--Creators">
-                    <img src="images/Creators.png" alt="Creators">
-                    <p class="text_categories">Creators</p>
-                </a>
+        </div>
+        <div class="review_bgr">
+            <div class="reviews">
+                <div class="menu_logos menu_logos--reviews">
+                    <a href="#"><img src="images/Bitmap (1).png" alt="bitmap1"></a>
+                    <a href="#"><img src="images/Bitmap (2).png" alt="bitmap2"></a>
+                    <a href="#"><img src="images/Bitmap (3).png" alt="bitmap3"></a>
+                    <a href="#"><img src="images/Bitmap (4).png" alt="bitmap4"></a>
+                    <a href="#"><img src="images/Bitmap (5).png" alt="bitmap5"></a>
+                    <a href="#"><img src="images/Bitmap (6).png" alt="bitmap6"></a>
+                </div>
+                <div class="content_reviews">
+                    <a href="#" class="a_reviews">Trusted by the world's most innovative businesses - big and small</a>
+                    <p class="p_reviews">"Comprehensive set of startup tools for all imaginable entrepreneurial needs. 
+                        Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support"</p>
+                    <div class="infor_user infor_user--reviews">
+                        <a href="#" class="user_name">Viella Malkovich</a>
+                        <p class="user_note">Creative Director at Johnson</p>
+                    </div>
+                    <div class="page_reviews">
+                        <a href="#" class="a_review"><div class="option_review "></div></a>
+                        <a href="#" class="a_review"><div class="option_review"></div> </a>
+                        <a href="#" class="a_review"><div class="option_review"></div> </a>
+                    </div>
+                    <img src="images/bongbong.png" alt="bong bong" class="img_reviews">
+                </div>
+            </div>
+        </div>
+        <div class="Hiring">
+            <div class="Hiring_header">
+                <p class="Hiring_title">We're hiring</p>
+                <p class="Hiring_text">We're a team of lifelong learners. We're equal parts left and right brained.</p>
+                <button class="btn btn--Company">More about Company</button>
+            </div>
+            <a href="#" class="jobs">
+                <p class="jobs__title">Front-End Developer</p>
+                <div class="jobs__right">
+                    <p class="jobs__text">Los Angeles/ Remote</p>
+                    <p class="jobs__icon">></p>
+                </div>
+            </a>
+            <a href="#" class="jobs">
+                <p class="jobs__title">Community Manager</p>
+                <div class="jobs__right">
+                    <p class="jobs__text">New York/ Full-Time</p>
+                    <p class="jobs__icon">></p>
+                </div>
+            </a>
+            <a href="#" class="jobs">
+                <p class="jobs__title">UX/UI Designer</p>
+                <div class="jobs__right">
+                    <p class="jobs__text">New York/ Full-Time</p>
+                    <p class="jobs_icon">></p>
+                </div>
+            </a>
+        </div>
+        <div class="CTA_bgr">
+            <div class="CTA">
+                <img src="images/CTA_image.png" alt="CTA" class="CTA_img">
+                <div class="CTA_right">
+                    <p class="CTA_title">Start your free trial.</p>
+                    <p class="CTA_text">Get notified about company updates, news and blog posts. We hate spam.</p>
+                    <form action="#" class="CTA_form">
+                        <input type="text" placeholder="Enter your email"class="CTA_input">
+                        <button class="btn">Get Started</button>
+                    </form>
+                    <p class="CTA_note">Free 14-day trial. Easy setup. Cancel any time. Check out. 
+                        <a href="$" class="CTA_a">Terms of Use.</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bgr">
+            <div class="footer">
+                <div class="footer_left">
+                    <a class="logo" href="#">
+                        <img src="/images/footer_logo.png" alt="icon" class="logo__img logo__img--footer">
+                        <div class="logo__name">
+                            <span class="text-bold">Foundation</span>
+                            <p class="logo__startup">Startup landing template</p>
+                        </div>
+                    </a>
+                    <p class="footer_text">Foundation is a website template for statups and small teams.
+                        It helps to build a website in no time.
+                    </p>
+                    <a href="#"><img src="images/AppStore.png" alt="logo appstore" class="logo_store"></a> 
+                    <a href="#"><img src="images/Google Play.png" alt="logo gg"> </a>
+                </div>
+                <ul class="footer_list">
+                    <a href="#"><p class="footer__title">Product</p></a> 
+                    <a href="#"><li class="footer__item">Acquire Users</li></a>
+                    <a href="#"><li class="footer__item">Content Marketing</li></a>
+                    <a href="#"><li class="footer__item">Website Templates</li></a>
+                    <a href="#"><li class="footer__item">Customer Management</li></a>
+                    <a href="#"><li class="footer__item">Virtual Inbox</li></a>
+                </ul>
+                <ul class="footer_list">
+                    <a href="#"><p class="footer__title">Company</p></a> 
+                    <a href="#"><li class="footer__item"> About Foundation</li></a>
+                    <a href="#"><li class="footer__item">Brand Guidelines</li> </a>
+                    <a href="#"><li class="footer__item">Press Kit</li> </a>
+                    <a href="#"><li class="footer__item">Support</li> </a>
+                </ul>
+            </div>
+        </div>
+        <div class="finish">
+            <div  class="finish_list">
+                <a href="#"><p class="finish_item">Terms</p></a>
+                <a href="#"><p class="finish_item">Privacy</p></a>
+                <a href="#"><p class="finish_item">License</p></a>
+            </div>
+            <div class="finish_logo">
+                <a href="#"><img class="finish_img" src="images/icon-twitter.png" alt="logo twitter"></a>
+                <a href="#"><img class="finish_img" src="images/icon-fb.png" alt="logo facebook"></a>
+                <a href="#"><img class="finish_img" src="images/LinkedIn.png" alt="logo In"></a>
             </div>
         </div>
     </div>

@@ -1,0 +1,14 @@
+.option_featires{
+    width: 360px;
+    font-size: 18px;
+    line-height: 26px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.option_featires__text{
+    margin-bottom: 13.68px;
+}
+.option_featires__a{
+    color:  #3040C4;
+    font-weight: bold;
+}

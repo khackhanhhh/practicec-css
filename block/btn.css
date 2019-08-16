@@ -1,0 +1,30 @@
+.btn{
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 13px;
+    background:  #3040C4;;
+    background-blend-mode:overlay;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05); 
+    color: #FFFFFF;
+    padding-top: 17px;
+    padding-left: 28px;
+    padding-bottom: 18px;
+    padding-right: 29px;
+    border: 0px;
+    border-radius: 2px;
+}
+.btn--menu{
+    margin-bottom: 14px;
+}
+.btn--LearnMore{
+    margin-left: 10px;
+    background: #FFFFFF;
+    color: #3040C4;
+}
+.btn--Company{
+    margin: auto;
+    margin-bottom: 110px;
+}
